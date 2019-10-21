@@ -3,23 +3,37 @@
 	"version": "1.0.0",
 	"description": "Application pour se préparer aux entretiens avec les familles en deuil",
 	"main": "main.js",
-	"scripts": {
+	"scripts": 
+	{
 		"test": "nodejs main.js"
 	},
-	"repository": {
+
+	"repository": 
+	{
 		"type": "git",
 		"url": "git+https://github.com/albanmartel/entretiens_familles.git"
 	},
-	"keywords": [
+
+	"keywords": 
+	[
 		"entretiens",
 		"funerailles",
 		"familles",
 		"organisation"
 	],
-	"author": "alban martel",
+
+	"author": 
+	{
+		"name": "Alban MARTEL",
+		"email": "albanmartel.developpeur@gmail.com",
+		"url": "https://albanmartel.github.io/"
+	},
+
 	"license": "GPL-3.0",
-	"bugs": {
+	"bugs": 
+	{
 		"url": "https://github.com/albanmartel/entretiens_familles/issues"
 	},
+
 	"homepage": "https://github.com/albanmartel/entretiens_familles#readme"
 }
