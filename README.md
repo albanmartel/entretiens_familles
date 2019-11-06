@@ -1,11 +1,20 @@
 # entretiens_familles
 Cette application permet de se préparer aux entretiens d'organisation de funérailles.
 
-Démarrer application
+L'application utilise electron et les processus de communication entre icpMain et ipcRenderer
+
+## Installation depuis github
+
 ```terminal
-node main.js
+git clone https://github.com/albanmartel/entretiens_familles.git
 ```
-ou 
+## Installer modules manquants
+
+```terminal
+node install
+```
+
+## Démarrer application
 
 Pour démarrer le programme
 dans un terminal :
