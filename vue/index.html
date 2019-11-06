@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simulateur d'entretien Famille</title>
+  <script type="text/javascript" src="./public/javascripts/jquery-3.2.1.js" onload="window.$ = window.jQuery = module.exports;"></script>
+  <script type="text/javascript" src="./public/javascripts/jquery-ui.js"></script>
+  <script type="text/javascript" src="./public/javascripts/jquery.ui.datepicker-fr.js"></script>
+  <script type="text/javascript" src="./public/javascripts/jquery-browser-plugin.js"></script>
+  <script type="text/javascript" src="./public/javascripts/jquery.ui.datepicker-fr.js"></script>
+  <script type="text/javascript" src="./public/javascripts/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./public/css/jquery-ui.css">
+  <link rel="stylesheet" href="./public/css/style.css">
+  <link rel="stylesheet" href="./public/css/print.css" media="print" />
+</head>
+
+<body>
+  <div class="jumbotron text-center">
+    <h1>Simulateur d'entretien Famille</h1>
+  </div>
+  <div class="bg-primary btn-lg">
+    <h4>Question</h4>
+  </div>
+  <br/>
+  <div class="form-group row-2">
+    <div class="col-sm-12">
+      <div class="form-group">
+        <input type="text" class="form-control" id="question" />
+      </div>
+    </div>
+  </div>
+  <div class="form-group">&nbsp</div>
+  <div class="bg-primary btn-lg">
+    <h4>Réponse</h4>
+  </div>
+  <br/>
+  <div class="form-group row-2">
+    <div class="col-sm-12">
+      <div class="form-group">
+        <input type="text" class="form-control" id="reponse" />
+      </div>
+    </div>
+  </div>
+
+  <br/>
+
+  <button class="btn bg-primary pull-right" id="valider" value="validation">Valider</button>
+  <p>
+    <div id="reply"></div>
+  </p>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>

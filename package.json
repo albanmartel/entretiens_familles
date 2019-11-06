@@ -3,10 +3,10 @@
 	"version": "1.0.0",
 	"description": "Application pour se préparer aux entretiens avec les familles en deuil",
 	"main": "main/index.js",
-	"test": "main/test.js",
 	"scripts": {
-		"start": "nodejs main",
-		"test": "nodejs test",
+		"start": "electron main",
+		"test": "nodejs main/test.js",
+		"tst": "nodejs main/main.js",
 		"package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
 		"package-win32": "electron-packager . entretien-familles-app --overwrite --asar --platform=win32 --arch=ia32 --icon=Icones/engrenages.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
 		"package-win64": "electron-packager . entretien-familles-app --overwrite --asar --platform=win32 --arch=x64 --icon=Icones/engrenages.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
