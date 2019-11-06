@@ -35,5 +35,9 @@
 	"homepage": "https://github.com/albanmartel/entretiens_familles#readme",
 	"dependencies": {
 		"electron": "latest"
+	},
+	"devDependencies": {
+		"electron-installer-debian": "latest",
+		"electron-builder": "latest"
 	}
 }

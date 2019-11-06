@@ -13,6 +13,11 @@ git clone https://github.com/albanmartel/entretiens_familles.git
 ```terminal
 node install
 ```
+## Installer les modules de déceloppement
+
+```terminal
+npm install --save-dev
+```
 
 ## Démarrer application
 
