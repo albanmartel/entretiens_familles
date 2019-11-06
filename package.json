@@ -2,38 +2,38 @@
 	"name": "entretiens_familles",
 	"version": "1.0.0",
 	"description": "Application pour se préparer aux entretiens avec les familles en deuil",
-	"main": "main.js",
-	"scripts": 
-	{
-		"test": "nodejs main.js",
+	"main": "main/index.js",
+	"test": "main/test.js",
+	"scripts": {
+		"start": "nodejs main",
+		"test": "nodejs test",
+		"package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+		"package-win32": "electron-packager . entretien-familles-app --overwrite --asar --platform=win32 --arch=ia32 --icon=Icones/engrenages.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
+		"package-win64": "electron-packager . entretien-familles-app --overwrite --asar --platform=win32 --arch=x64 --icon=Icones/engrenages.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
+		"package-linux32": "electron-packager . entretien-familles-app --overwrite --asar --platform=linux --arch=ia32 --icon=Icones/engrenages.png --prune=true --out=release-builds",
+		"package-linux64": "electron-packager . entretien-familles-app --overwrite --asar --platform=linux --arch=x64 --icon=Icones/engrenages.png --prune=true --out=release-builds"
 	},
-
-	"repository": 
-	{
+	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/albanmartel/entretiens_familles.git"
 	},
-
-	"keywords": 
-	[
+	"keywords": [
 		"entretiens",
 		"funerailles",
 		"familles",
 		"organisation"
 	],
-
-	"author": 
-	{
+	"author": {
 		"name": "Alban MARTEL",
 		"email": "albanmartel.developpeur@gmail.com",
 		"url": "https://albanmartel.github.io/"
 	},
-
 	"license": "GPL-3.0",
-	"bugs": 
-	{
+	"bugs": {
 		"url": "https://github.com/albanmartel/entretiens_familles/issues"
 	},
-
-	"homepage": "https://github.com/albanmartel/entretiens_familles#readme"
+	"homepage": "https://github.com/albanmartel/entretiens_familles#readme",
+	"dependencies": {
+		"electron": "latest"
+	}
 }
