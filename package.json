@@ -2,7 +2,7 @@
 	"name": "entretiens_familles",
 	"version": "1.0.0",
 	"description": "Application pour se préparer aux entretiens avec les familles en deuil",
-	"main": "main/index.js",
+	"main": "main.js",
 	"scripts": {
 		"start": "electron main",
 		"test": "nodejs main/test.js",
@@ -37,7 +37,7 @@
 		"electron": "latest"
 	},
 	"devDependencies": {
-		"electron-installer-debian": "latest",
+		"electron-packager": "latest",
 		"electron-builder": "latest"
 	}
 }

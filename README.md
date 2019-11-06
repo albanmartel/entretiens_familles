@@ -26,3 +26,15 @@ dans un terminal :
 ```terminal
 $ npm start
 ```
+## Packager l'application pour votre architecture
+
+Pour win 64
+
+```terminal
+npm run package-win64
+```
+Pour linux 64
+
+```terminal
+npm run package-linux64
+```
