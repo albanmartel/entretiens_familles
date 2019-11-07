@@ -25,11 +25,7 @@ const questionsCremation = {
 	1: "Quelle sera la destination des cendres ?",
 	2: "Nous offrons un coeur mémoris, c'est un coeur en pierre réfractaire qui accompagne le cercueil pendant la crémation, et vous sera rendu à la remise des cendres\n"
 		+ "cela vous conviendra ? Vous en faudra-t-il plusieurs ?",
-	3: "Voulez-vous que je vous expose les différents choix possibles de destination des cendres",
-	4: "Vous avez le choix comme destination des cendres à la dispersion au jardin du souvenir du crématorium ou l'inhumation dans une sépulture ou \n"
-		+ "de coller l'urne à un monument funéraire ou à la dispersion dans l'endroit de votre choix à l'exception de l'espace public ",
-	5: "Il est toujours possible de conserver l'urne au crématorium dans l'attente de votre décision, le dépôt d'urne se paie au trimestre, c'est ce que vous voulez ?",
-	6: "Voulez-vous que nous dispersions dans un endroit précis, que vous puissiez à une date ultérieure vous y recueillir ?"
+	3: "Voulez-vous que nous dispersions dans un endroit précis du jardin du souvenir,que vous puissiez à une date ultérieure vous y recueillir ?"
 }
 
 const questionsCercueilUrne = {
@@ -55,7 +51,7 @@ const questionsConcession = {
 	4: "Est-ce une tombe pleine terre ?",
 	5: "Est-ce une fosse maçonnée avec un monument au-dessus ?",
 	6: "Est-ce une dalle horizontale ou une porte verticale ?",
-	7: "Quel est le lien de parenté entre le défunt et le concessionnaire ?"	
+	7: "Quel est le lien de parenté entre le défunt et le concessionnaire ?"
 }
 
 const questionsOrganisationPlanning = {
@@ -79,7 +75,7 @@ function getQuestionsReposduCorps() {
 	return questionsReposduCorps
 }
 function getQuestionsCercueilUrne() {
-	return questionsCercueilUrne 
+	return questionsCercueilUrne
 }
 function getQuestionsCeremonie() {
 	return questionsCeremonie
