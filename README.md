@@ -13,7 +13,7 @@ git clone https://github.com/albanmartel/entretiens_familles.git
 ```terminal
 node install
 ```
-## Installer les modules de déceloppement
+## Installer les modules de développement
 
 ```terminal
 npm install --save-dev
@@ -26,6 +26,19 @@ dans un terminal :
 ```terminal
 $ npm start
 ```
+
+```terminal
+$ ./run.sh
+```
+
+## Lancer les Tests unitaires (Mocha et Spectron)
+
+Pour faire les tests unitaire
+dans un terminal :
+```terminal
+$ npm test
+```
+
 ## Packager l'application pour votre architecture
 
 Pour win 64
