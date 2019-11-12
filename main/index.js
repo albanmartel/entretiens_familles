@@ -158,7 +158,7 @@ ipcMain.on('reponse-vue', function(event, questionFromVue, reponseFromVue) {
       event.reply('reponse-main', questionFromMain, reponseFromMain)
       parcourrirTableauPasApas()
     } else {
-      event.reply('reponse-main', "c'est terminé", "c'est terminé")
+      event.reply('reponse-main', "c'est terminé", "")
     }
   } catch (e) {
     console.error(e);

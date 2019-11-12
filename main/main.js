@@ -1,7 +1,7 @@
 /* Récupérer informations du module data.js */
 const path = require('path')
 let cheminRemonte = path.normalize(path.join(__dirname, ".."))
-const data = require(path.join(cheminRemonte , 'data.js'))
+const data = require(path.join(cheminRemonte , 'vue/public/conf/data.js'))
 const questionsPriseInformations = data.getQuestionsPriseInformations()
 const questionsReposduCorps = data.getQuestionsReposduCorps()
 const questionsCercueilUrne = data.getQuestionsCercueilUrne()
